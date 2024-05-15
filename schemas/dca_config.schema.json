@@ -152,7 +152,8 @@
             "manifest_record_type",
             "hide_blanks",
             "annotation_keys",
-            "table_column_names"
+            "table_column_names",
+            "file_annotations_upload"
           ],
           "additionalProperties": false,              
           "properties": {
@@ -179,8 +180,12 @@
             "hide_blanks": {
               "description": "Schematic model submit option",
               "type": "boolean"
+            },
+            "file_annotations_upload": {
+              "description": "Choose to add annotations to files during upload",
+              "type": "boolean"
             }
-          }              
+          }
         }
       }
     }
