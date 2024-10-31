@@ -12,6 +12,8 @@
         "synapse_asset_view",
         "data_model_url",
         "data_model_info",
+        "data_model_version_as_annotation",
+        "data_model_version_as_column",
         "template_menu_config_file",
         "logo_location",
         "logo_link",
@@ -30,6 +32,16 @@
         },
         "data_model_url": {
           "description": "URL to the DCC's data model",
+          "type": "string",
+          "format": "uri-reference"
+        },
+        "data_model_version_as_annotation": {
+          "description": "Add the data model URL as an annotation to the manifest",
+          "type": "string",
+          "format": "uri-reference"
+        },
+        "data_model_version_as_column": {
+          "description": "Add the data model URL as a column to the manifest",
           "type": "string",
           "format": "uri-reference"
         },
